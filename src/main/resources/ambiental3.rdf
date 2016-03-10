@@ -1,0 +1,1514 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY j.0 "http://localhost/default#Actor&#37;20" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY j.1 "http://localhost/default#Agentes&#37;20" >
+    <!ENTITY j.4 "http://localhost/default#Impacto&#37;20" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY daml "http://www.daml.org/2001/03/daml+oil#" >
+    <!ENTITY j.3 "http://localhost/default#Contaminantes&#37;20" >
+    <!ENTITY j.2 "http://localhost/default#Perturbaciones&#37;20" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+    <!ENTITY j.5 "http://localhost/default#Emision&#37;20de&#37;20gases&#37;20de&#37;20" >
+]>
+
+
+<rdf:RDF xmlns="http://localhost/default#"
+     xml:base="http://localhost/default"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:j.1="http://localhost/default#Agentes%20"
+     xmlns:j.0="http://localhost/default#Actor%20"
+     xmlns:j.3="http://localhost/default#Contaminantes%20"
+     xmlns:j.2="http://localhost/default#Perturbaciones%20"
+     xmlns:j.5="http://localhost/default#Emision%20de%20gases%20de%20"
+     xmlns:j.4="http://localhost/default#Impacto%20"
+     xmlns:daml="http://www.daml.org/2001/03/daml+oil#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="&dc;source"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#aCausaDe -->
+
+    <rdf:Description rdf:about="http://localhost/default#aCausaDe">
+        <rdfs:label>aCausaDe</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://localhost/default#formadoPor -->
+
+    <rdf:Description rdf:about="http://localhost/default#formadoPor">
+        <rdfs:label>formadoPor</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://localhost/default#generadoPor -->
+
+    <rdf:Description rdf:about="http://localhost/default#generadoPor">
+        <rdfs:label>generadoPor</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://localhost/default#produce -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#produce">
+        <rdfs:label>produce</rdfs:label>
+        <rdfs:domain rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:range rdf:resource="&j.4;Ambiental"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/default#generado%20por -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/default#generado%20por">
+        <rdfs:label>generadoPor</rdfs:label>
+        <rdfs:domain rdf:resource="http://localhost/default#Contaminacion"/>
+        <rdfs:range rdf:resource="&j.0;Contaminador"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#attachedSystem -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#attachedSystem"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#deployedOnPlatform -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#deployedOnPlatform"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#deployedSystem -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#deployedSystem"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#detects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#detects"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#featureOfInterest"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#forProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#forProperty"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasDeployment -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasDeployment"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasInput -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasInput"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementCapability"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasMeasurementProperty"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasOperatingProperty"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasOperatingRange"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasOutput -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasOutput"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasProperty"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasSubSystem"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalRange"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#hasValue -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#hasValue"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#implements -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#implements"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#inCondition -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#inCondition"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#inDeployment -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#inDeployment"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#isProducedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#isProducedBy"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#isPropertyOf"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#isProxyFor -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#isProxyFor"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#observationResult -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observationResult"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#observationResultTime -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observationResultTime"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observationSamplingTime"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#observedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observedBy"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#observedProperty -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observedProperty"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#observes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#observes"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#onPlatform -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#onPlatform"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#qualityOfObservation"/>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#sensingMethodUsed -->
+
+    <owl:ObjectProperty rdf:about="http://purl.oclc.org/NET/ssnx/ssn#sensingMethodUsed"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#actsThrough -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#actsThrough"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#classifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#classifies"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#conceptualizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#conceptualizes"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#concretelyExpresses -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#concretelyExpresses"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#defines -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#defines"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#definesRole -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#definesRole"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#definesTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#definesTask"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#executesTask -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#executesTask"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#expresses -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#expresses"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#hasComponent"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#hasConstituent -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#hasConstituent"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#hasMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#hasMember"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#hasPart"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#hasParticipant"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#includesEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#includesEvent"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#includesObject -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#includesObject"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#includesTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#includesTime"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isClassifiedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isClassifiedBy"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isDefinedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isDefinedIn"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isDescribedBy"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isExecutedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isExecutedIn"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isExpressedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isExpressedBy"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isIntroducedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isIntroducedBy"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isLocationOf"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isMemberOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isMemberOf"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isParticipantIn"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isRealizedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isRealizedBy"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isSettingFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isSettingFor"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isTaskDefinedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isTaskDefinedIn"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#isTaskOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#isTaskOf"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#overlaps -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#overlaps"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#parametrizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#parametrizes"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#precedes -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#precedes"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#realizes -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#realizes"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#satisfies -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#satisfies"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DUL.owl#unifies -->
+
+    <owl:ObjectProperty rdf:about="http://www.loa-cnr.it/ontologies/DUL.owl#unifies"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#Ambiente -->
+
+    <owl:Class rdf:about="http://localhost/default#Ambiente">
+        <rdfs:label>Ambiente</rdfs:label>
+        <rdfs:label xml:lang="en">Environment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Biologicas -->
+
+    <owl:Class rdf:about="http://localhost/default#Biologicas">
+        <rdfs:label xml:lang="en">Biological</rdfs:label>
+        <rdfs:label xml:lang="es">Biológicas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion">
+        <rdfs:label xml:lang="en">Contamination</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#quimicas -->
+
+    <owl:Class rdf:about="http://localhost/default#quimicas">
+        <rdfs:label xml:lang="en">Chemical</rdfs:label>
+        <rdfs:label xml:lang="es">químicas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Actor%20Contaminador -->
+
+    <owl:Class rdf:about="&j.0;Contaminador">
+        <rdfs:label xml:lang="en">Actor Polluter</rdfs:label>
+        <rdfs:label xml:lang="es">Actor Contaminador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Agentes%20Contaminantes -->
+
+    <owl:Class rdf:about="&j.1;Contaminantes">
+        <rdfs:label xml:lang="en">Pollutants</rdfs:label>
+        <rdfs:label xml:lang="es">Agentes Contaminantes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20Ambiental -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20Ambiental">
+        <rdfs:label xml:lang="en">Environmental Pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación Ambiental</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20Sonora -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20Sonora">
+        <rdfs:label xml:lang="en">Noise Pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación Sonora</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#aCausaDe"/>
+                <owl:allValuesFrom rdf:resource="&j.3;Sonoros"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20Termica -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20Termica">
+        <rdfs:label xml:lang="en">Thermal pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación Térmica</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#aCausaDe"/>
+                <owl:allValuesFrom rdf:resource="&j.3;Termicos"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20Visual -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20Visual">
+        <rdfs:label xml:lang="en">Visual pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación Visual</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#aCausaDe"/>
+                <owl:allValuesFrom rdf:resource="&j.3;Visuales"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20del%20Agua -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20del%20Agua">
+        <rdfs:label xml:lang="en">Water Pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación del Agua</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#aCausaDe"/>
+                <owl:allValuesFrom rdf:resource="&j.3;Agua"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20del%20Aire -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20del%20Aire">
+        <rdfs:label xml:lang="en">Air Pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación del Aire</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#generadoPor"/>
+                <owl:allValuesFrom rdf:resource="&j.1;Contaminantes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#aCausaDe"/>
+                <owl:allValuesFrom rdf:resource="&j.3;Aire"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminacion%20del%20suelo -->
+
+    <owl:Class rdf:about="http://localhost/default#Contaminacion%20del%20suelo">
+        <rdfs:label xml:lang="en">Soil Pollution</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminación del suelo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Contaminacion%20Ambiental"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#aCausaDe"/>
+                <owl:allValuesFrom rdf:resource="&j.3;Suelo"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminantes%20Agua -->
+
+    <owl:Class rdf:about="&j.3;Agua">
+        <rdfs:label xml:lang="en">Water pollutants</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminantes Agua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminantes%20Aire -->
+
+    <owl:Class rdf:about="&j.3;Aire">
+        <rdfs:label xml:lang="en">Air pollutants</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminantes Aire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminantes%20Sonoros -->
+
+    <owl:Class rdf:about="&j.3;Sonoros">
+        <rdfs:label xml:lang="en">Sound contaminants</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminantes Sonoros</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminantes%20Suelo -->
+
+    <owl:Class rdf:about="&j.3;Suelo">
+        <rdfs:label xml:lang="en">Soil contaminants</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminantes Suelo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminantes%20Termicos -->
+
+    <owl:Class rdf:about="&j.3;Termicos">
+        <rdfs:label xml:lang="en">Heated pollutants</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminantes Térmicos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Contaminantes%20Visuales -->
+
+    <owl:Class rdf:about="&j.3;Visuales">
+        <rdfs:label xml:lang="en">Visual pollutants</rdfs:label>
+        <rdfs:label xml:lang="es">Contaminantes Visuales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Impacto%20Ambiental -->
+
+    <owl:Class rdf:about="&j.4;Ambiental">
+        <rdfs:label xml:lang="en">Environmental damage</rdfs:label>
+        <rdfs:label xml:lang="es">Daño Ambiental</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Medio%20Ambiente -->
+
+    <owl:Class rdf:about="http://localhost/default#Medio%20Ambiente">
+        <rdfs:label xml:lang="en">Environment Medium</rdfs:label>
+        <rdfs:label xml:lang="es">Medio Ambiente</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://localhost/default#Ambiente"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://localhost/default#formadoPor"/>
+                <owl:hasValue rdf:resource="http://localhost/default#Ecosistema"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/default#Perturbaciones%20Ambientales -->
+
+    <owl:Class rdf:about="&j.2;Ambientales">
+        <rdfs:label xml:lang="en">Environmental Disturbances</rdfs:label>
+        <rdfs:label xml:lang="es">Perturbaciones Ambientales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/default#Arsenico -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Arsenico">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Arsenic</rdfs:label>
+        <rdfs:label xml:lang="es">Arsénico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Asbestos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Asbestos">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="es">Asbestos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Berilio -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Berilio">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Beryl</rdfs:label>
+        <rdfs:label xml:lang="es">Berilio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Bocinas -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Bocinas">
+        <rdf:type rdf:resource="&j.3;Sonoros"/>
+        <rdfs:label xml:lang="en">Horn</rdfs:label>
+        <rdfs:label xml:lang="es">Bocinas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#CH4 -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#CH4">
+        <rdfs:label xml:lang="es">CH4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#CO2 -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#CO2">
+        <rdfs:label xml:lang="es">CO2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Cadmio -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Cadmio">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Cadmium</rdfs:label>
+        <rdfs:label xml:lang="es">Cadminio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Cromo -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Cromo">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Chrome</rdfs:label>
+        <rdfs:label xml:lang="es">Cromo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Deforestacion -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Deforestacion">
+        <rdf:type rdf:resource="&j.2;Ambientales"/>
+        <rdfs:label xml:lang="en">Deforestation</rdfs:label>
+        <rdfs:label xml:lang="es">Deforestación</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Dureza -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Dureza">
+        <rdf:type rdf:resource="http://localhost/default#quimicas"/>
+        <rdfs:label xml:lang="en">Hardness</rdfs:label>
+        <rdfs:label xml:lang="es">Dureza</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Ecosistema -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Ecosistema"/>
+    
+
+
+    <!-- http://localhost/default#Explosiones -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Explosiones">
+        <rdf:type rdf:resource="&j.3;Sonoros"/>
+        <rdfs:label xml:lang="en">Explosions</rdfs:label>
+        <rdfs:label xml:lang="es">Explosiones</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Hombre -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Hombre">
+        <rdf:type rdf:resource="&j.0;Contaminador"/>
+        <rdfs:label xml:lang="en">Man</rdfs:label>
+        <rdfs:label xml:lang="es">Hombre</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Mercurio -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Mercurio">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Mercury</rdfs:label>
+        <rdfs:label xml:lang="es">Mercurio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Naturaleza -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Naturaleza">
+        <rdf:type rdf:resource="&j.0;Contaminador"/>
+        <rdfs:label xml:lang="en">Nature</rdfs:label>
+        <rdfs:label xml:lang="es">Naturaleza</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Niquel -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Niquel">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Nickel</rdfs:label>
+        <rdfs:label xml:lang="es">Níquel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Nitratos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Nitratos">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Nitrates</rdfs:label>
+        <rdfs:label xml:lang="es">Nitratos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Plomo -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Plomo">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Lead</rdfs:label>
+        <rdfs:label xml:lang="es">Plomo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Sulfatos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Sulfatos">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">sulfates</rdfs:label>
+        <rdfs:label xml:lang="es">Sulfatos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Vanadio -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Vanadio">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Vanadium</rdfs:label>
+        <rdfs:label xml:lang="es">Vanadio</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#color">
+        <rdfs:label xml:lang="es">Color</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#fluor -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#fluor">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Fluorine</rdfs:label>
+        <rdfs:label xml:lang="es">Flúor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#radiactividad -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#radiactividad">
+        <rdf:type rdf:resource="&j.2;Ambientales"/>
+        <rdfs:label xml:lang="en">Radioactivity</rdfs:label>
+        <rdfs:label xml:lang="es">Radiactividad</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#temperatura -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#temperatura">
+        <rdfs:label xml:lang="en">Temperature</rdfs:label>
+        <rdfs:label xml:lang="es">Temperatura</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#turbidez -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#turbidez">
+        <rdfs:label xml:lang="en">Turbidity</rdfs:label>
+        <rdfs:label xml:lang="es">Turbidez</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Acidez%20y%20Alcalinidad -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Acidez%20y%20Alcalinidad">
+        <rdf:type rdf:resource="http://localhost/default#quimicas"/>
+        <rdfs:label xml:lang="en">Acidity and alkalinity</rdfs:label>
+        <rdfs:label xml:lang="es">Acidez y Alcalinidad</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Administracion%20de%20Residuos%20Solidos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Administracion%20de%20Residuos%20Solidos">
+        <rdf:type rdf:resource="&j.4;Ambiental"/>
+        <rdfs:label xml:lang="en">Solid waste management</rdfs:label>
+        <rdfs:label xml:lang="es">Administración de Residuos Sólidos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Construcciones%20sin%20Planificacion -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Construcciones%20sin%20Planificacion">
+        <rdf:type rdf:resource="&j.3;Visuales"/>
+        <rdfs:label xml:lang="en">Unplanned Constructions</rdfs:label>
+        <rdfs:label xml:lang="es">Construcciones sin Planificación</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Degradacion%20Biologica -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Degradacion%20Biologica">
+        <rdf:type rdf:resource="&j.3;Suelo"/>
+        <rdfs:label xml:lang="en">Biological degradation</rdfs:label>
+        <rdfs:label xml:lang="es">Degradación Biológica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Degradacion%20Fisica -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Degradacion%20Fisica">
+        <rdf:type rdf:resource="&j.3;Suelo"/>
+        <rdfs:label xml:lang="en">Physical Degradation</rdfs:label>
+        <rdfs:label xml:lang="es">Degradación Física</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Degradacion%20Quimica -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Degradacion%20Quimica">
+        <rdf:type rdf:resource="&j.3;Suelo"/>
+        <rdfs:label xml:lang="en">Chemical Degradation</rdfs:label>
+        <rdfs:label xml:lang="es">Degradación Química</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Desarrollo%20urbano -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Desarrollo%20urbano">
+        <rdf:type rdf:resource="&j.3;Termicos"/>
+        <rdfs:label xml:lang="en">Urban Development</rdfs:label>
+        <rdfs:label xml:lang="es">Desarrollo Urbano</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Desequilibro%20de%20Microorganismos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Desequilibro%20de%20Microorganismos">
+        <rdf:type rdf:resource="http://localhost/default#Biologicas"/>
+        <rdfs:label xml:lang="en">Imbalance of Microorganisms</rdfs:label>
+        <rdfs:label xml:lang="es">Desequilibrio de Microorganísmos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Desintegracion%20de%20Materiales%20Solidos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Desintegracion%20de%20Materiales%20Solidos">
+        <rdf:type rdf:resource="&j.3;Aire"/>
+        <rdfs:label xml:lang="en">Disintegration of Solid Materials</rdfs:label>
+        <rdfs:label xml:lang="es">Desintegración de Materiales Sólidos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Deterioro%20de%20la%20Capa%20de%20Ozono -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Deterioro%20de%20la%20Capa%20de%20Ozono">
+        <rdf:type rdf:resource="&j.4;Ambiental"/>
+        <rdfs:label xml:lang="en">Deterioration of the Ozone Layer</rdfs:label>
+        <rdfs:label xml:lang="es">Deterioro de la capa de Ozono</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Efecto%20Invernadero -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Efecto%20Invernadero">
+        <rdf:type rdf:resource="&j.4;Ambiental"/>
+        <rdfs:label xml:lang="en">Greenhouse Effect</rdfs:label>
+        <rdfs:label xml:lang="es">Efecto Invernadero</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Emision%20de%20Radiaciones%20y%20Vapor%20de%20Agua -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Emision%20de%20Radiaciones%20y%20Vapor%20de%20Agua">
+        <rdf:type rdf:resource="&j.3;Termicos"/>
+        <rdfs:label xml:lang="en">Emission of Radiation and Water Vapor</rdfs:label>
+        <rdfs:label xml:lang="es">Emisión de Radiaciones y Vapor de Agua</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Emision%20de%20gases%20toxicos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Emision%20de%20gases%20toxicos">
+        <rdf:type rdf:resource="&j.3;Aire"/>
+        <rdfs:label xml:lang="en">Emission of Toxic Gases</rdfs:label>
+        <rdfs:label xml:lang="es">Emisión de Gases Tóxicos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Emision%20de%20gases%20de%20invernadero -->
+
+    <owl:NamedIndividual rdf:about="&j.5;invernadero">
+        <rdf:type rdf:resource="&j.3;Termicos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Exceso%20de%20Objetos%20Urbanos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Exceso%20de%20Objetos%20Urbanos">
+        <rdf:type rdf:resource="&j.3;Visuales"/>
+        <rdfs:label xml:lang="en">Excess Urban Objects</rdfs:label>
+        <rdfs:label xml:lang="es">Exceso de Objetos Urbanos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Flora%20y%20Fauna%20Acuatica -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Flora%20y%20Fauna%20Acuatica">
+        <rdf:type rdf:resource="http://localhost/default#Biologicas"/>
+        <rdfs:label xml:lang="en">Acuatic Wildlife</rdfs:label>
+        <rdfs:label xml:lang="es">Flora y Fauna Acuática</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Grupos%20electrogenos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Grupos%20electrogenos">
+        <rdf:type rdf:resource="&j.3;Sonoros"/>
+        <rdfs:label xml:lang="en">Electrogene Groups</rdfs:label>
+        <rdfs:label xml:lang="es">Grupos Electrógenos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Lluvia%20Acida -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Lluvia%20Acida">
+        <rdf:type rdf:resource="&j.4;Ambiental"/>
+        <rdfs:label xml:lang="en">Acid Rain</rdfs:label>
+        <rdfs:label xml:lang="es">Lluvia ácida</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Maquinas%20y%20Motores%20Industriales -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Maquinas%20y%20Motores%20Industriales">
+        <rdf:type rdf:resource="&j.3;Sonoros"/>
+        <rdfs:label xml:lang="en">Machinery and Industrial Engines</rdfs:label>
+        <rdfs:label xml:lang="es">Máquinas y Motores Industriales</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Monoxido%20de%20Carbono -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Monoxido%20de%20Carbono">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label>CO</rdfs:label>
+        <rdfs:label xml:lang="en">Carbon Monoxide</rdfs:label>
+        <rdfs:label xml:lang="es">Monóxido de Carbono</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Oxido%20de%20Azufre -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Oxido%20de%20Azufre">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label>SO2</rdfs:label>
+        <rdfs:label xml:lang="en">Sulfur oxide</rdfs:label>
+        <rdfs:label xml:lang="es">Óxido de Azufre</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Oxidos%20de%20Nitrogeno -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Oxidos%20de%20Nitrogeno">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label>NO2</rdfs:label>
+        <rdfs:label xml:lang="en">Nitrogen Oxides</rdfs:label>
+        <rdfs:label xml:lang="es">Óxidos de Nitrógeno</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Particulas%20Solidas -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Particulas%20Solidas">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Solid Particles</rdfs:label>
+        <rdfs:label xml:lang="es">Partículas Sólidas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Perdida%20de%20Biodiversidad -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Perdida%20de%20Biodiversidad">
+        <rdf:type rdf:resource="&j.2;Ambientales"/>
+        <rdfs:label xml:lang="en">Biodiversity Loss</rdfs:label>
+        <rdfs:label xml:lang="es">Pérdida de Biodiversidad</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Presencia%20de%20Material%20Organico -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Presencia%20de%20Material%20Organico">
+        <rdf:type rdf:resource="http://localhost/default#quimicas"/>
+        <rdfs:label xml:lang="en">Presence of Organic Material</rdfs:label>
+        <rdfs:label xml:lang="es">Presencia de Material Orgánico</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Ruido%20por%20Movimiento%20de%20Vehiculos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Ruido%20por%20Movimiento%20de%20Vehiculos">
+        <rdf:type rdf:resource="&j.3;Sonoros"/>
+        <rdfs:label xml:lang="en">Vehicle Noise by Movement</rdfs:label>
+        <rdfs:label xml:lang="es">Ruído por Movimiento de Vehículos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#Sustancias%20Organicas -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#Sustancias%20Organicas">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label xml:lang="en">Organic Substances</rdfs:label>
+        <rdfs:label xml:lang="es">Sustancias Orgánicas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#aguas%20negras -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#aguas%20negras">
+        <rdf:type rdf:resource="&j.3;Agua"/>
+        <rdfs:label xml:lang="en">Sewage</rdfs:label>
+        <rdfs:label xml:lang="es">Aguas Negras</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#derrames%20productos%20quimicos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#derrames%20productos%20quimicos">
+        <rdf:type rdf:resource="&j.3;Agua"/>
+        <rdfs:label xml:lang="en">Chemical Spills</rdfs:label>
+        <rdfs:label xml:lang="es">Derrames Productos Químicos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#olor%20y%20sabor -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#olor%20y%20sabor">
+        <rdfs:label xml:lang="en">Smell and Taste</rdfs:label>
+        <rdfs:label xml:lang="es">Olor y Sabor</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/default#residuos%20solidos -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/default#residuos%20solidos">
+        <rdf:type rdf:resource="&j.3;Agua"/>
+        <rdfs:label xml:lang="en">Solid Waste</rdfs:label>
+        <rdfs:label xml:lang="es">Residuos Sólidos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Material_Particulado_Menor_a_10_micrometros -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Material_Particulado_Menor_a_10_micrometros">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label>MP10</rdfs:label>
+        <rdfs:label xml:lang="en">Particulate Matter Less than 10 microns</rdfs:label>
+        <rdfs:label xml:lang="es">Material Partículado Menor a 10 micrómetros </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Ozono -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Ozono">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label>O3</rdfs:label>
+        <rdfs:label xml:lang="en">Ozone</rdfs:label>
+        <rdfs:label xml:lang="es">Ozono</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Particulas_Suspendidas_Totales -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Particulas_Suspendidas_Totales">
+        <rdf:type rdf:resource="&j.1;Contaminantes"/>
+        <rdfs:label>PST</rdfs:label>
+        <rdfs:label xml:lang="en">Total Suspended Particles</rdfs:label>
+        <rdfs:label xml:lang="es">Partículas Suspendidas Totales </rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Presencia_de_Sustancias_Inorganicas -->
+
+    <owl:NamedIndividual rdf:about="http://www.co-ode.org/ontologies/ont.owl#Presencia_de_Sustancias_Inorganicas">
+        <rdf:type rdf:resource="http://localhost/default#quimicas"/>
+        <rdfs:label xml:lang="en">Presence of Inorganic Substances</rdfs:label>
+        <rdfs:label xml:lang="es">Presencia de Sustancias Inorgánicas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://localhost/default#limitadoALugar">
+        <rdfs:label>limitadoALugar</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#Afectado%20por">
+        <rdfs:label>AfectadoPor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#tiene">
+        <rdfs:label>tiene</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#seAfectaPor">
+        <rdfs:label>seAfectaPor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#generadaPor">
+        <rdfs:label>generadoPor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#deTipo">
+        <rdfs:label>DeTipo</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#estaCarcacterizadoPor">
+        <rdfs:label>estaCaracterizadoPor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#esMedidoPor">
+        <rdfs:label>esMedidoPor</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#relacionadoA">
+        <rdfs:label>relacionadoA</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://localhost/default#estaCompuestoPor">
+        <rdfs:label>estaCompuestoPor</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
